@@ -6,18 +6,15 @@
 //
 
 /// A view model that can produce any number of numbered items
-struct ManyItemsViewModel {
-    let numItems: Int
-}
-
-extension ManyItemsViewModel: ItemViewModel {
+struct ManyItemsViewModel: ItemViewModel {
     
-    var count: Int {
-        return self.numItems
-    }
+    // MARK: ItemViewModel
 
+    /// How many items to produce
+    let count: Int
+
+    /// The generated item at the given index in the view
     func item(at index:Int) -> Item? {
         return Item(title: "Item \(index)", storyboardId: nil)
     }
-    
 }

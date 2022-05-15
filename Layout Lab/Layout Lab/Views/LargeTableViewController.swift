@@ -11,7 +11,7 @@ import UIKit
 class LargeTableViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
-    let viewModel = RandomFactsViewModel(numItems: 250)
+    let viewModel = RandomFactsViewModel(count: 250)
     
     override func viewDidLoad() {
         super.viewDidLoad()
