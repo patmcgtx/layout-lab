@@ -9,31 +9,31 @@ import UIKit
 
 class MainMenuViewController: UIViewController {
     
-    @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var tableView: UITableView!
     
     private let viewModel = MainMenuViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.collectionView.dataSource = self
+        self.tableView.dataSource = self
     }
     
 }
 
-extension MainMenuViewController: UICollectionViewDataSource {
+extension MainMenuViewController: UITableViewDataSource {
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.viewModel.count
     }
     
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         guard let item = self.viewModel.item(at: indexPath.row), indexPath.section == 0 else {
-            return UICollectionViewCell()
+            return UITableViewCell()
         }
         
-        guard let cell = self.collectionView.dequeueReusableCell(withReuseIdentifier: "itemCell", for: indexPath) as? ItemCollectionViewCell else {
-            return UICollectionViewCell()
+        guard let cell = self.tableView.dequeueReusableCell(withIdentifier: "itemTableCell", for: indexPath) as? ItemTableViewCell else {
+            return UITableViewCell()
         }
         
         cell.configure(with: item)
