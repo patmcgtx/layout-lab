@@ -12,12 +12,15 @@ protocol RandomFacts {
     
     /// Gets a random fact
     var randomFact: String { get }
-    
+
+    /// Gets a random fact
+    func fact(at index:Int) -> String
+
     /// Tells how many facts there are
     var count: Int { get }
 }
 
-/// Implementation of `RandomFacts` that keeps all data in memory
+/// Implementation of `RandomFacts` that reads from a pre-determined file
 class RandomFactsFromFile: RandomFacts {
     
     enum RandomFactsError: Error {
@@ -43,6 +46,19 @@ class RandomFactsFromFile: RandomFacts {
         switch self.state {
         case .ok(let facts): return facts.count
         case .initial, .failed: return 0
+        }
+    }
+    
+    func fact(at index: Int) -> String {
+        switch self.state {
+        case .ok(let facts):
+            if (0..<facts.count).contains(index) {
+                return facts[index]
+            } else {
+                return "<Out of range>"
+            }
+        case .initial: return "<Not initialized>"
+        case .failed(let error): return "<Error: \(error.localizedDescription)>"
         }
     }
     
