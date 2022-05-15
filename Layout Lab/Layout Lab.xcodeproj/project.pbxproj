@@ -16,7 +16,8 @@
 		693C9B11283068A000F1CC45 /* Layout_LabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693C9B10283068A000F1CC45 /* Layout_LabTests.swift */; };
 		693C9B1B283068A000F1CC45 /* Layout_LabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693C9B1A283068A000F1CC45 /* Layout_LabUITests.swift */; };
 		693C9B1D283068A000F1CC45 /* Layout_LabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 693C9B1C283068A000F1CC45 /* Layout_LabUITestsLaunchTests.swift */; };
-		69A4DF8C283136F4001C812A /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 69A4DF8B283136F4001C812A /* Data */; };
+		69A4DF8C283136F4001C812A /* Random Facts in Resources */ = {isa = PBXBuildFile; fileRef = 69A4DF8B283136F4001C812A /* Random Facts */; };
+		69A4DF9028313A7D001C812A /* RandomFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A4DF8F28313A7D001C812A /* RandomFacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,8 @@
 		693C9B16283068A000F1CC45 /* Layout LabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Layout LabUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		693C9B1A283068A000F1CC45 /* Layout_LabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout_LabUITests.swift; sourceTree = "<group>"; };
 		693C9B1C283068A000F1CC45 /* Layout_LabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout_LabUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		69A4DF8B283136F4001C812A /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
+		69A4DF8B283136F4001C812A /* Random Facts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Random Facts"; sourceTree = "<group>"; };
+		69A4DF8F28313A7D001C812A /* RandomFacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +107,8 @@
 				693C9AFD2830689E00F1CC45 /* MainMenuViewController.swift */,
 				693C9AFF2830689E00F1CC45 /* Main.storyboard */,
 				693C9B072830689F00F1CC45 /* Info.plist */,
-				69A4DF8B283136F4001C812A /* Data */,
+				69A4DF8B283136F4001C812A /* Random Facts */,
+				69A4DF8F28313A7D001C812A /* RandomFacts.swift */,
 			);
 			path = "Layout Lab";
 			sourceTree = "<group>";
@@ -244,7 +247,7 @@
 			files = (
 				693C9B062830689F00F1CC45 /* LaunchScreen.storyboard in Resources */,
 				693C9B032830689F00F1CC45 /* Assets.xcassets in Resources */,
-				69A4DF8C283136F4001C812A /* Data in Resources */,
+				69A4DF8C283136F4001C812A /* Random Facts in Resources */,
 				693C9B012830689E00F1CC45 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +275,7 @@
 			files = (
 				693C9AFE2830689E00F1CC45 /* MainMenuViewController.swift in Sources */,
 				693C9AFA2830689E00F1CC45 /* AppDelegate.swift in Sources */,
+				69A4DF9028313A7D001C812A /* RandomFacts.swift in Sources */,
 				693C9AFC2830689E00F1CC45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
