@@ -22,7 +22,7 @@ extension RandomItemsViewModel: ItemViewModel {
 
     func item(at index:Int) -> Item? {
         let fact = self.randomFacts.fact(at: index)
-        return Item(title: fact, segueId: nil)
+        return Item(title: fact, storyboardId: nil)
     }
     
 }

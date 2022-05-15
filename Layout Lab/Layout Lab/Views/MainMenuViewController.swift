@@ -46,8 +46,11 @@ extension MainMenuViewController: UITableViewDataSource {
 extension MainMenuViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vc = LargeTableViewController.instantiate() 
-        self.present(vc, animated: true)
+        if let item = self.viewModel.item(at: indexPath.row), let storyboardId = item.storyboardId {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let viewController = storyboard.instantiateViewController(withIdentifier: storyboardId)
+            self.present(viewController, animated: true)
+        }
     }
     
 }

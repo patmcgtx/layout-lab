@@ -17,7 +17,7 @@ extension ManyItemsViewModel: ItemViewModel {
     }
 
     func item(at index:Int) -> Item? {
-        return Item(title: "Item \(index)", segueId: nil)
+        return Item(title: "Item \(index)", storyboardId: nil)
     }
     
 }

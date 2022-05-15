@@ -11,6 +11,6 @@ struct Item {
     /// The title to display for the item.
     let title: String
     
-    /// The segue to follow, if any, when the item is tapped.
-    let segueId: String?
+    /// The id of the storyboard view controller to present when tapped, if any
+    let storyboardId: String?
 }
