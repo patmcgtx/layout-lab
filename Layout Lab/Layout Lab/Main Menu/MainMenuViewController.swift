@@ -10,6 +10,7 @@ import UIKit
 class MainMenuViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
+    
     private let viewModel = MainMenuViewModel()
     
     override func viewDidLoad() {
@@ -25,24 +26,19 @@ extension MainMenuViewController: UICollectionViewDataSource {
         return self.viewModel.count
     }
     
-    
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         guard let item = self.viewModel.item(at: indexPath.row), indexPath.section == 0 else {
             return UICollectionViewCell()
         }
         
-        guard let cell = self.collectionView.dequeueReusableCell(withReuseIdentifier: "itemCell", for: indexPath) as? ItemCell else {
+        guard let cell = self.collectionView.dequeueReusableCell(withReuseIdentifier: "itemCell", for: indexPath) as? ItemCollectionViewCell else {
             return UICollectionViewCell()
         }
         
         cell.configure(with: item)
         return cell
     }
-    
-}
-
-extension MainMenuViewController: UICollectionViewDelegate {
     
 }
 
