@@ -118,7 +118,7 @@
 				69A4DF8A283136CF001C812A /* App */,
 				69A4DF94283167C1001C812A /* Common */,
 				69A4DF9728316811001C812A /* UI Components */,
-				69A4DF91283164C2001C812A /* Main Menu */,
+				69A4DF91283164C2001C812A /* Views */,
 				693C9B072830689F00F1CC45 /* Info.plist */,
 				69A4DF8B283136F4001C812A /* Random Facts */,
 				69A4DF8F28313A7D001C812A /* RandomFacts.swift */,
@@ -154,14 +154,14 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		69A4DF91283164C2001C812A /* Main Menu */ = {
+		69A4DF91283164C2001C812A /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				693C9AFF2830689E00F1CC45 /* Main.storyboard */,
 				69A4DF9228316523001C812A /* MainMenuViewModel.swift */,
 				693C9AFD2830689E00F1CC45 /* MainMenuViewController.swift */,
 			);
-			path = "Main Menu";
+			path = Views;
 			sourceTree = "<group>";
 		};
 		69A4DF94283167C1001C812A /* Common */ = {
