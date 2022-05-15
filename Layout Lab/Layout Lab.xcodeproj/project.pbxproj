@@ -23,6 +23,7 @@
 		69A4DF992831683A001C812A /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A4DF982831683A001C812A /* ItemCollectionViewCell.swift */; };
 		69A4DF9B28316DD3001C812A /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A4DF9A28316DD3001C812A /* ItemViewModel.swift */; };
 		69A4DF9D28316ED6001C812A /* ManyItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A4DF9C28316ED6001C812A /* ManyItemsViewModel.swift */; };
+		69A4DF9F28317E5C001C812A /* RandomItemsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A4DF9E28317E5C001C812A /* RandomItemsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		69A4DF982831683A001C812A /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		69A4DF9A28316DD3001C812A /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
 		69A4DF9C28316ED6001C812A /* ManyItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManyItemsViewModel.swift; sourceTree = "<group>"; };
+		69A4DF9E28317E5C001C812A /* RandomItemsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomItemsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 				69A4DF95283167DC001C812A /* Item.swift */,
 				69A4DF9A28316DD3001C812A /* ItemViewModel.swift */,
 				69A4DF9C28316ED6001C812A /* ManyItemsViewModel.swift */,
+				69A4DF9E28317E5C001C812A /* RandomItemsViewModel.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A4DF9F28317E5C001C812A /* RandomItemsViewModel.swift in Sources */,
 				693C9AFE2830689E00F1CC45 /* MainMenuViewController.swift in Sources */,
 				69A4DF9B28316DD3001C812A /* ItemViewModel.swift in Sources */,
 				693C9AFA2830689E00F1CC45 /* AppDelegate.swift in Sources */,

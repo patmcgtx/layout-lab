@@ -5,7 +5,7 @@
 //  Created by Patrick McGonigle on 5/15/22.
 //
 
-/// View model that can generate a given number of items
+/// A view model that can produce any number of numbered items
 struct ManyItemsViewModel {
     let numItems: Int
 }
