@@ -122,6 +122,7 @@
 				69A4DF8A283136CF001C812A /* App */,
 				69A4DF94283167C1001C812A /* Common */,
 				69A4DF9728316811001C812A /* UI Components */,
+				69FB080028318A51000CF366 /* View Models */,
 				69A4DF91283164C2001C812A /* Views */,
 				693C9B072830689F00F1CC45 /* Info.plist */,
 				69A4DF8B283136F4001C812A /* Random Facts */,
@@ -162,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				693C9AFF2830689E00F1CC45 /* Main.storyboard */,
-				69A4DF9228316523001C812A /* MainMenuViewModel.swift */,
 				693C9AFD2830689E00F1CC45 /* MainMenuViewController.swift */,
 				69A4DFA0283182DC001C812A /* LargeTableViewController.swift */,
 			);
@@ -187,6 +187,14 @@
 				69A4DFA2283186A7001C812A /* ItemTableViewCell.swift */,
 			);
 			path = "UI Components";
+			sourceTree = "<group>";
+		};
+		69FB080028318A51000CF366 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				69A4DF9228316523001C812A /* MainMenuViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

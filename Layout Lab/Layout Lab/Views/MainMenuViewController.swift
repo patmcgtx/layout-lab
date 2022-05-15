@@ -16,6 +16,7 @@ class MainMenuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.dataSource = self
+        self.tableView.delegate = self
     }
     
 }
@@ -42,3 +43,11 @@ extension MainMenuViewController: UITableViewDataSource {
     
 }
 
+extension MainMenuViewController: UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = LargeTableViewController.instantiate() 
+        self.present(vc, animated: true)
+    }
+    
+}
