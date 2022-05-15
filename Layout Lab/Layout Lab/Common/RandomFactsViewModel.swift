@@ -17,7 +17,7 @@ struct RandomFactsViewModel {
 extension RandomFactsViewModel: ItemViewModel {
     
     var count: Int {
-        return self.randomFacts.count
+        return self.numItems
     }
 
     func item(at index:Int) -> Item? {
