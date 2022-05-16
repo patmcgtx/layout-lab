@@ -16,9 +16,11 @@ struct MainMenuViewModel {
         2 : Item(title: "Horizontal scroll view", storyboardId: "horizontalScrollView"),
         3 : Item(title: "Horizontal scroll view with vertical tables", storyboardId: "hvScrollView"),
         4 : Item(title: "Collection View", storyboardId: nil),
-        5 : Item(title: "Popover", storyboardId: nil),
-        6 : Item(title: "Segmented Control", storyboardId: nil),
-        7 : Item(title: "More Stack Views", storyboardId: nil),
+        5 : Item(title: "Collection View with Images", storyboardId: nil),
+        6 : Item(title: "Collection View with async Images", storyboardId: nil),
+        7 : Item(title: "Popover", storyboardId: nil),
+        8 : Item(title: "Segmented Control", storyboardId: nil),
+        9 : Item(title: "More Stack Views", storyboardId: nil),
     ]
 
 }
