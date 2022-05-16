@@ -72,8 +72,22 @@
                     <view key="view" contentMode="scaleToFill" id="BEO-8U-xeQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stack Views" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZd-9Q-wAK">
+                                <rect key="frame" x="108.5" y="12" width="103.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="YSE-HX-uwk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="iZd-9Q-wAK" firstAttribute="centerX" secondItem="YSE-HX-uwk" secondAttribute="centerX" id="NI9-oB-dZq"/>
+                            <constraint firstItem="iZd-9Q-wAK" firstAttribute="top" secondItem="YSE-HX-uwk" secondAttribute="top" constant="12" id="dKm-Mw-Yhl"/>
+                            <constraint firstItem="YSE-HX-uwk" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="iZd-9Q-wAK" secondAttribute="trailing" constant="12" id="tC4-LC-Her"/>
+                            <constraint firstItem="iZd-9Q-wAK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="YSE-HX-uwk" secondAttribute="leading" constant="12" id="wG0-xT-9TY"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iCs-lD-Llq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -87,8 +101,22 @@
                     <view key="view" contentMode="scaleToFill" id="YAa-43-7Vs">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Horizontal + Vertical Scroll View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exa-N1-vay">
+                                <rect key="frame" x="25" y="12" width="270.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Hzb-hS-arX"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="exa-N1-vay" firstAttribute="centerX" secondItem="Hzb-hS-arX" secondAttribute="centerX" id="SeW-IT-W0o"/>
+                            <constraint firstItem="Hzb-hS-arX" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="exa-N1-vay" secondAttribute="trailing" constant="12" id="k0j-oL-Cbw"/>
+                            <constraint firstItem="exa-N1-vay" firstAttribute="top" secondItem="Hzb-hS-arX" secondAttribute="top" constant="12" id="oCR-Y9-dIZ"/>
+                            <constraint firstItem="exa-N1-vay" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Hzb-hS-arX" secondAttribute="leading" constant="12" id="r97-PE-MkB"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IlR-T7-zRl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -104,8 +132,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Large Table View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BoD-xK-F7d" userLabel="Title">
-                                <rect key="frame" x="95.5" y="12" width="129.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="89" y="12" width="142.5" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -162,8 +190,22 @@
                     <view key="view" contentMode="scaleToFill" id="hh8-6M-YZK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Horizontal Scroll View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uoo-P0-BWj">
+                                <rect key="frame" x="67" y="12" width="186" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="kOO-Gj-ADN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Uoo-P0-BWj" firstAttribute="top" secondItem="kOO-Gj-ADN" secondAttribute="top" constant="12" id="1QZ-Nb-cXy"/>
+                            <constraint firstItem="Uoo-P0-BWj" firstAttribute="centerX" secondItem="kOO-Gj-ADN" secondAttribute="centerX" id="XUF-4x-5GC"/>
+                            <constraint firstItem="kOO-Gj-ADN" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Uoo-P0-BWj" secondAttribute="trailing" constant="12" id="qpp-h8-ZKI"/>
+                            <constraint firstItem="Uoo-P0-BWj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="kOO-Gj-ADN" secondAttribute="leading" constant="12" id="u4j-XX-arh"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DGw-PX-T98" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
