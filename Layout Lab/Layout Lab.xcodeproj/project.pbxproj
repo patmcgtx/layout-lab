@@ -26,6 +26,7 @@
 		69A4DF9F28317E5C001C812A /* RandomFactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A4DF9E28317E5C001C812A /* RandomFactsViewModel.swift */; };
 		69A4DFA1283182DC001C812A /* LargeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A4DFA0283182DC001C812A /* LargeTableViewController.swift */; };
 		69A4DFA3283186A7001C812A /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A4DFA2283186A7001C812A /* ItemTableViewCell.swift */; };
+		69FB08022831FABE000CF366 /* HorizontalScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB08012831FABE000CF366 /* HorizontalScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		69A4DF9E28317E5C001C812A /* RandomFactsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomFactsViewModel.swift; sourceTree = "<group>"; };
 		69A4DFA0283182DC001C812A /* LargeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTableViewController.swift; sourceTree = "<group>"; };
 		69A4DFA2283186A7001C812A /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		69FB08012831FABE000CF366 /* HorizontalScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +124,6 @@
 				69A4DF8A283136CF001C812A /* App */,
 				69A4DF94283167C1001C812A /* Common */,
 				69A4DF9728316811001C812A /* UI Components */,
-				69FB080028318A51000CF366 /* View Models */,
 				69A4DF91283164C2001C812A /* Views */,
 				693C9B072830689F00F1CC45 /* Info.plist */,
 				69A4DF8B283136F4001C812A /* Random Facts */,
@@ -163,8 +164,10 @@
 			isa = PBXGroup;
 			children = (
 				693C9AFF2830689E00F1CC45 /* Main.storyboard */,
+				69A4DF9228316523001C812A /* MainMenuViewModel.swift */,
 				693C9AFD2830689E00F1CC45 /* MainMenuViewController.swift */,
 				69A4DFA0283182DC001C812A /* LargeTableViewController.swift */,
+				69FB08012831FABE000CF366 /* HorizontalScrollViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,14 +190,6 @@
 				69A4DFA2283186A7001C812A /* ItemTableViewCell.swift */,
 			);
 			path = "UI Components";
-			sourceTree = "<group>";
-		};
-		69FB080028318A51000CF366 /* View Models */ = {
-			isa = PBXGroup;
-			children = (
-				69A4DF9228316523001C812A /* MainMenuViewModel.swift */,
-			);
-			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +329,7 @@
 				69A4DF9B28316DD3001C812A /* ItemViewModel.swift in Sources */,
 				69A4DFA1283182DC001C812A /* LargeTableViewController.swift in Sources */,
 				69A4DFA3283186A7001C812A /* ItemTableViewCell.swift in Sources */,
+				69FB08022831FABE000CF366 /* HorizontalScrollViewController.swift in Sources */,
 				693C9AFA2830689E00F1CC45 /* AppDelegate.swift in Sources */,
 				69A4DF9328316523001C812A /* MainMenuViewModel.swift in Sources */,
 				69A4DF9028313A7D001C812A /* RandomFacts.swift in Sources */,
