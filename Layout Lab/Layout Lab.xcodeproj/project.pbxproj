@@ -29,6 +29,7 @@
 		69FB08022831FABE000CF366 /* HorizontalScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB08012831FABE000CF366 /* HorizontalScrollViewController.swift */; };
 		69FB08042831FF4B000CF366 /* StackViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB08032831FF4B000CF366 /* StackViewsViewController.swift */; };
 		69FB08062831FFFE000CF366 /* HVScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB08052831FFFE000CF366 /* HVScrollViewController.swift */; };
+		69FB080828327DA7000CF366 /* PicScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB080728327DA7000CF366 /* PicScrollViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		69FB08012831FABE000CF366 /* HorizontalScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrollViewController.swift; sourceTree = "<group>"; };
 		69FB08032831FF4B000CF366 /* StackViewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewsViewController.swift; sourceTree = "<group>"; };
 		69FB08052831FFFE000CF366 /* HVScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HVScrollViewController.swift; sourceTree = "<group>"; };
+		69FB080728327DA7000CF366 /* PicScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicScrollViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 				69FB08012831FABE000CF366 /* HorizontalScrollViewController.swift */,
 				69FB08032831FF4B000CF366 /* StackViewsViewController.swift */,
 				69FB08052831FFFE000CF366 /* HVScrollViewController.swift */,
+				69FB080728327DA7000CF366 /* PicScrollViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				69A4DF9F28317E5C001C812A /* RandomFactsViewModel.swift in Sources */,
 				693C9AFE2830689E00F1CC45 /* MainMenuViewController.swift in Sources */,
 				69A4DF9B28316DD3001C812A /* ItemViewModel.swift in Sources */,
+				69FB080828327DA7000CF366 /* PicScrollViewController.swift in Sources */,
 				69A4DFA1283182DC001C812A /* LargeTableViewController.swift in Sources */,
 				69A4DFA3283186A7001C812A /* ItemTableViewCell.swift in Sources */,
 				69FB08022831FABE000CF366 /* HorizontalScrollViewController.swift in Sources */,
