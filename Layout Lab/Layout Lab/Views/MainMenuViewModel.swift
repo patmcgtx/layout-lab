@@ -13,8 +13,8 @@ struct MainMenuViewModel {
     private let itemMap: [Int:Item] = [
         0 : Item(title: "Large table view", storyboardId: "largeTableView"),
         1 : Item(title: "Stack views", storyboardId: "stacksViews"),
-        2 : Item(title: "Basic scroll view", storyboardId: "horizontalScrollView"),
-        3 : Item(title: "Pic scroll view", storyboardId: "picScrollView"),
+        2 : Item(title: "Horizontal scroll view", storyboardId: "horizontalScrollView"),
+        3 : Item(title: "Pic 2D scroll view", storyboardId: "picScrollView"),
         4 : Item(title: "Horizontal scroll view with vertical tables", storyboardId: "hvScrollView"),
         5 : Item(title: "Collection View", storyboardId: nil),
         6 : Item(title: "Collection View with Images", storyboardId: nil),
