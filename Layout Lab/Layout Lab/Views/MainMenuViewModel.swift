@@ -11,10 +11,10 @@ import Foundation
 struct MainMenuViewModel {
         
     private let itemMap: [Int:Item] = [
-        0 : Item(title: "Large table view", storyboardId: "largeTableViewController"),
-        1 : Item(title: "Table view with text search field", storyboardId: nil),
-        2 : Item(title: "Horizontal scroll view", storyboardId: "horizontalScrollViewController"),
-        3 : Item(title: "Horizontal scroll view with vertical tables", storyboardId: nil)
+        0 : Item(title: "Large table view", storyboardId: "largeTableView"),
+        1 : Item(title: "Stack views", storyboardId: "stacksViews"),
+        2 : Item(title: "Horizontal scroll view", storyboardId: "horizontalScrollView"),
+        3 : Item(title: "Horizontal scroll view with vertical tables", storyboardId: "hvScrollView")
     ]
 
 }

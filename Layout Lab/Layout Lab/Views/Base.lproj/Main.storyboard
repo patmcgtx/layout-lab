@@ -65,10 +65,40 @@
             </objects>
             <point key="canvasLocation" x="-174" y="-261"/>
         </scene>
+        <!--Stack Views View Controller-->
+        <scene sceneID="frU-eJ-XeJ">
+            <objects>
+                <viewController storyboardIdentifier="stacksViews" id="32S-mh-Rq1" customClass="StackViewsViewController" customModule="Layout_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BEO-8U-xeQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="YSE-HX-uwk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iCs-lD-Llq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="791" y="265"/>
+        </scene>
+        <!--Scroll View Controller-->
+        <scene sceneID="ETH-lT-rmf">
+            <objects>
+                <viewController storyboardIdentifier="hvScrollView" id="uLc-5P-Red" customClass="HVScrollViewController" customModule="Layout_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YAa-43-7Vs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Hzb-hS-arX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IlR-T7-zRl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1781" y="264"/>
+        </scene>
         <!--Large Table View Controller-->
         <scene sceneID="Duo-Ks-SOI">
             <objects>
-                <viewController storyboardIdentifier="largeTableViewController" id="zAG-oG-hoZ" customClass="LargeTableViewController" customModule="Layout_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="largeTableView" id="zAG-oG-hoZ" customClass="LargeTableViewController" customModule="Layout_Lab" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MDv-aT-441">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -126,19 +156,19 @@
             <point key="canvasLocation" x="793" y="-455"/>
         </scene>
         <!--Horizontal Scroll View Controller-->
-        <scene sceneID="o2r-ja-ozZ">
+        <scene sceneID="Yrh-Fe-ao0">
             <objects>
-                <viewController storyboardIdentifier="horizontalScrollViewController" id="vxR-eu-2nh" customClass="HorizontalScrollViewController" customModule="Layout_Lab" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="3c3-f1-8CX">
+                <viewController storyboardIdentifier="horizontalScrollView" id="z8y-kb-N8b" customClass="HorizontalScrollViewController" customModule="Layout_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hh8-6M-YZK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="7XV-ZX-XpG"/>
+                        <viewLayoutGuide key="safeArea" id="kOO-Gj-ADN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="L03-vE-fEZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DGw-PX-T98" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="791" y="244"/>
+            <point key="canvasLocation" x="1783" y="-455"/>
         </scene>
     </scenes>
     <resources>
