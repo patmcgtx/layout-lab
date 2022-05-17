@@ -191,31 +191,97 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Horizontal Scroll View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uoo-P0-BWj">
-                                <rect key="frame" x="67" y="12" width="186" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Horizontal Scroll View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uoo-P0-BWj" userLabel="Title">
+                                <rect key="frame" x="67" y="12" width="186" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="game-night" translatesAutoresizingMaskIntoConstraints="NO" id="Khx-Et-iZc">
+                                <rect key="frame" x="12" y="44.5" width="296" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="4Bi-yw-x3P"/>
+                                </constraints>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QLw-Pf-rjQ">
+                                <rect key="frame" x="12" y="184.5" width="296" height="140"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="B6G-wt-Xll">
+                                        <rect key="frame" x="0.0" y="0.0" width="516" height="120"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trash" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ZGO-OQ-2BX">
+                                                <rect key="frame" x="0.0" y="-1" width="120" height="120.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="120" id="BUg-qS-ZOH"/>
+                                                    <constraint firstAttribute="width" constant="120" id="MJA-pA-gt4"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rectangle.on.rectangle.angled" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="OTc-pz-FQq">
+                                                <rect key="frame" x="132" y="-0.5" width="120" height="120"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="SBx-98-p1n"/>
+                                                    <constraint firstAttribute="height" constant="120" id="euq-gS-Af1"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="doc.richtext.fill.ko" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="CQj-ZY-1ki">
+                                                <rect key="frame" x="264" y="0.0" width="120" height="120"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="120" id="U8H-L1-qXv"/>
+                                                    <constraint firstAttribute="width" constant="120" id="tzt-n1-dc3"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="faceid" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="bWn-GB-pl0">
+                                                <rect key="frame" x="396" y="0.5" width="120" height="118.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="120" id="WaQ-PZ-A1P"/>
+                                                    <constraint firstAttribute="height" constant="120" id="aVR-nL-O3H"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="B6G-wt-Xll" firstAttribute="trailing" secondItem="EJx-LX-dOc" secondAttribute="trailing" id="5U5-oO-LdV"/>
+                                    <constraint firstItem="B6G-wt-Xll" firstAttribute="bottom" secondItem="EJx-LX-dOc" secondAttribute="bottom" id="B7E-5Q-tQj"/>
+                                    <constraint firstItem="B6G-wt-Xll" firstAttribute="top" secondItem="EJx-LX-dOc" secondAttribute="top" id="P0z-ix-gQ4"/>
+                                    <constraint firstAttribute="height" constant="140" id="iAj-7x-P8B"/>
+                                    <constraint firstItem="B6G-wt-Xll" firstAttribute="leading" secondItem="EJx-LX-dOc" secondAttribute="leading" id="oba-jU-dfn"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="EJx-LX-dOc"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="uxR-Ut-HAZ"/>
+                            </scrollView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="zp3-sI-a9G">
+                                <rect key="frame" x="12" y="335.5" width="296" height="21"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kOO-Gj-ADN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Uoo-P0-BWj" firstAttribute="top" secondItem="kOO-Gj-ADN" secondAttribute="top" constant="12" id="1QZ-Nb-cXy"/>
+                            <constraint firstItem="QLw-Pf-rjQ" firstAttribute="top" secondItem="Khx-Et-iZc" secondAttribute="bottom" constant="12" id="33p-ud-l1A"/>
+                            <constraint firstItem="zp3-sI-a9G" firstAttribute="top" secondItem="QLw-Pf-rjQ" secondAttribute="bottom" constant="12" id="7xF-UJ-eeC"/>
+                            <constraint firstItem="kOO-Gj-ADN" firstAttribute="trailing" secondItem="Khx-Et-iZc" secondAttribute="trailing" constant="12" id="DXB-Z3-XEC"/>
+                            <constraint firstItem="zp3-sI-a9G" firstAttribute="leading" secondItem="kOO-Gj-ADN" secondAttribute="leading" constant="12" id="HRf-Pf-jp8"/>
+                            <constraint firstItem="Khx-Et-iZc" firstAttribute="top" secondItem="Uoo-P0-BWj" secondAttribute="bottom" constant="12" id="UaH-Gr-LRx"/>
                             <constraint firstItem="Uoo-P0-BWj" firstAttribute="centerX" secondItem="kOO-Gj-ADN" secondAttribute="centerX" id="XUF-4x-5GC"/>
+                            <constraint firstItem="kOO-Gj-ADN" firstAttribute="trailing" secondItem="zp3-sI-a9G" secondAttribute="trailing" constant="12" id="mHL-Hn-sRS"/>
+                            <constraint firstItem="QLw-Pf-rjQ" firstAttribute="leading" secondItem="kOO-Gj-ADN" secondAttribute="leading" constant="12" id="n5n-dS-GmE"/>
                             <constraint firstItem="kOO-Gj-ADN" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Uoo-P0-BWj" secondAttribute="trailing" constant="12" id="qpp-h8-ZKI"/>
                             <constraint firstItem="Uoo-P0-BWj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="kOO-Gj-ADN" secondAttribute="leading" constant="12" id="u4j-XX-arh"/>
+                            <constraint firstItem="kOO-Gj-ADN" firstAttribute="trailing" secondItem="QLw-Pf-rjQ" secondAttribute="trailing" constant="12" id="uw1-0J-yYh"/>
+                            <constraint firstItem="Khx-Et-iZc" firstAttribute="leading" secondItem="kOO-Gj-ADN" secondAttribute="leading" constant="12" id="wNe-UJ-2cq"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DGw-PX-T98" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1783" y="-455"/>
+            <point key="canvasLocation" x="1781.25" y="-455.28169014084506"/>
         </scene>
-        <!--Pic Scroll View Controller-->
+        <!--View Controller-->
         <scene sceneID="ho2-dO-kTS">
             <objects>
-                <viewController storyboardIdentifier="picScrollView" id="Ny5-4e-9o4" customClass="PicScrollViewController" customModule="Layout_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="picScrollView" id="Ny5-4e-9o4" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HuW-5b-ulo">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -268,9 +334,17 @@
         </scene>
     </scenes>
     <resources>
+        <image name="doc.richtext.fill.ko" catalog="system" width="115" height="128"/>
+        <image name="faceid" catalog="system" width="128" height="115"/>
         <image name="game-night" width="488" height="495.5"/>
+        <image name="rectangle.on.rectangle.angled" catalog="system" width="128" height="100"/>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
