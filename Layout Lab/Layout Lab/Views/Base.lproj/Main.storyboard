@@ -63,65 +63,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-174" y="-261"/>
-        </scene>
-        <!--Stack Views View Controller-->
-        <scene sceneID="frU-eJ-XeJ">
-            <objects>
-                <viewController storyboardIdentifier="stacksViews" id="32S-mh-Rq1" customClass="StackViewsViewController" customModule="Layout_Lab" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="BEO-8U-xeQ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stack Views" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZd-9Q-wAK">
-                                <rect key="frame" x="108.5" y="12" width="103.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="YSE-HX-uwk"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="iZd-9Q-wAK" firstAttribute="centerX" secondItem="YSE-HX-uwk" secondAttribute="centerX" id="NI9-oB-dZq"/>
-                            <constraint firstItem="iZd-9Q-wAK" firstAttribute="top" secondItem="YSE-HX-uwk" secondAttribute="top" constant="12" id="dKm-Mw-Yhl"/>
-                            <constraint firstItem="YSE-HX-uwk" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="iZd-9Q-wAK" secondAttribute="trailing" constant="12" id="tC4-LC-Her"/>
-                            <constraint firstItem="iZd-9Q-wAK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="YSE-HX-uwk" secondAttribute="leading" constant="12" id="wG0-xT-9TY"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iCs-lD-Llq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="791" y="265"/>
-        </scene>
-        <!--Scroll View Controller-->
-        <scene sceneID="ETH-lT-rmf">
-            <objects>
-                <viewController storyboardIdentifier="hvScrollView" id="uLc-5P-Red" customClass="HVScrollViewController" customModule="Layout_Lab" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="YAa-43-7Vs">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Horizontal + Vertical Scroll View" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="exa-N1-vay">
-                                <rect key="frame" x="25" y="12" width="270.5" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Hzb-hS-arX"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="exa-N1-vay" firstAttribute="centerX" secondItem="Hzb-hS-arX" secondAttribute="centerX" id="SeW-IT-W0o"/>
-                            <constraint firstItem="Hzb-hS-arX" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="exa-N1-vay" secondAttribute="trailing" constant="12" id="k0j-oL-Cbw"/>
-                            <constraint firstItem="exa-N1-vay" firstAttribute="top" secondItem="Hzb-hS-arX" secondAttribute="top" constant="12" id="oCR-Y9-dIZ"/>
-                            <constraint firstItem="exa-N1-vay" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Hzb-hS-arX" secondAttribute="leading" constant="12" id="r97-PE-MkB"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IlR-T7-zRl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1781" y="264"/>
+            <point key="canvasLocation" x="-174" y="-52"/>
         </scene>
         <!--Large Table View Controller-->
         <scene sceneID="Duo-Ks-SOI">
@@ -181,12 +123,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HLn-n6-D3x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="793" y="-455"/>
+            <point key="canvasLocation" x="728" y="-51"/>
         </scene>
-        <!--Horizontal Scroll View Controller-->
+        <!--View Controller-->
         <scene sceneID="Yrh-Fe-ao0">
             <objects>
-                <viewController storyboardIdentifier="horizontalScrollView" id="z8y-kb-N8b" customClass="HorizontalScrollViewController" customModule="Layout_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="horizontalScrollView" id="z8y-kb-N8b" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hh8-6M-YZK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -276,7 +218,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DGw-PX-T98" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1781.25" y="-455.28169014084506"/>
+            <point key="canvasLocation" x="1551" y="341"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ho2-dO-kTS">
@@ -330,7 +272,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uE4-8c-0lC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2640" y="-96.126760563380287"/>
+            <point key="canvasLocation" x="1551" y="-339"/>
         </scene>
     </scenes>
     <resources>
