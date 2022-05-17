@@ -14,6 +14,7 @@ struct MainMenuViewModel {
         0 : Item(title: "Large table view", storyboardId: "largeTableView"),
         1 : Item(title: "Pic 2D scroll view", storyboardId: "picScrollView"),
         2 : Item(title: "Horizontal scroll view", storyboardId: "horizontalScrollView"),
+        3 : Item(title: "Trello-inspired main screen", storyboardId: "trelloMainView")
     ]
 
 }
